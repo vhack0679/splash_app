@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="103dp"
+        android:layout_height="186dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="292dp"
+        android:contentDescription="@string/todo"
+        android:onClick="button"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="103dp"
+        android:layout_height="186dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp"
+        android:contentDescription="@string/todo"
+        android:onClick="button1"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

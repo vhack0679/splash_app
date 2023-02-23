@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/sky"
+    tools:context=".MainActivity">
+
+    <ImageView android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:src="@drawable/logo2"
+        android:id="@+id/imageView"/>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="VAAGDEVI"
+        android:textAlignment="center"
+        android:textColor="@color/Red"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/bungee"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="DGREE AND PG COLLEGE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="CO-EDUCATION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Affiliated to kakatiya university,WARANGAL"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
